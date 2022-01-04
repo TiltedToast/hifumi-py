@@ -158,6 +158,10 @@ async def sub(message, subreddit: str = None):
         await error_log(message, e)
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a40dada8b72fc7c539cde3f66827cb3d33eebfbb
 async def self_posts(message, subreddit: str = None):
     global self_posts_running, sub_cache_text, last_accessed
     self_posts_running = True
